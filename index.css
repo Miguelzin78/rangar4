@@ -1,0 +1,121 @@
+/* GLOBAL */
+* {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  font-family: 'Roboto', sans-serif;
+  
+    margin: 0; 
+    position: relative;
+    height: 100vh;
+    width: 100vw;
+     background: url('https://i.pinimg.com/236x/90/9a/d2/909ad238365dbdd7ee088110a24edb39.jpg');
+    background-size: cover;
+}
+
+ul {
+  list-style: none;
+}
+
+/* FONTS */
+h1, h2, h3 { 
+
+  font-family: 'Playfair Display SC', serif;
+  text-transform: uppercase;
+}
+
+h3 {
+  display: grid;
+}
+
+header {
+  padding: 32px 0;
+  text-align: center;
+}
+
+header,
+section {
+  max-width: 300px;
+  margin: 0 auto; 
+  right: 100px;
+}
+
+header h1 {
+  margin-bottom: 4px;
+  font-size: 28px;
+  line-height: 33px;
+}
+
+header p {
+  font-size: 14px;
+  line-height: 16px;
+
+  color: rgb(255, 255, 255);
+}
+
+section {
+  margin-bottom: 24px;
+}
+
+section h2 {
+  background-color: #ac505600;
+  padding: 8px 1px;
+  text-align: center;
+
+  margin-bottom: 24px;
+  font-size: 18px;
+}
+
+ul li {
+  margin-bottom: 20px;
+}
+
+li .details {
+  max-width: 220px;
+}
+
+.details h3 {
+  margin-bottom: 8px;
+  font-size: 16px;
+  line-height: 19px ;
+}
+
+.details p {
+  color: rgb(255, 255, 255);
+  font-size: 14px;
+  line-height: 21px;
+}
+
+h1 {
+  color: rgb(254, 0, 0);
+
+}
+
+h2 {
+ color:mistyrose;
+}
+
+h3 {
+  color:lightslategrey;
+}
+
+
+.price {
+  color: rgb(189, 182, 182);
+  float: right;
+  margin-top: -60px;
+}
+
+.global {
+  color: darkgray;
+  float: right;
+  margin-top: -29px;
+}  
+
+.word {
+  color: darkgray;
+  float: right;
+  margin-top: -27px;
+}
